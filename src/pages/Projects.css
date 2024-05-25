@@ -1,0 +1,39 @@
+/* Projects.css */
+
+.projects-container {
+    background-color: #f9f9f9; /* Set background color */
+    padding: 20px; /* Add padding for spacing */
+  }
+
+  .project-list {
+    display: grid; /* Use grid layout for vertical arrangement */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Allow items to fill available space */
+    gap: 20px; /* Add some gap between items */
+  }
+  
+  .project-item {
+    background-color: #fff; /* Default background color */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Add background-color transition */
+  }
+  
+  .project-item:hover {
+    transform: translateY(-5px);
+    background-color: #f0f0f0; /* Background color on hover */
+  }
+  
+  .project-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .project-item h2 {
+    margin-top: 20px;
+  }
+  
+  .project-item p {
+    margin-bottom: 20px;
+  }

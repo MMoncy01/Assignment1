@@ -1,0 +1,17 @@
+/* Home.css */
+
+.home-container {
+    background-color: #f0f0f0; /* Set the background color */
+    height: 100vh; /* Set the height to fill the viewport */
+    display: flex;
+    justify-content: center; /* Center align horizontally */
+    align-items: center; /* Center align vertically */
+    text-align: center; /* Center align text */
+  }
+  
+  .home-content {
+    max-width: 800px; /* Set the maximum width of the content */
+    padding: 20px; /* Add some padding */
+  }
+
+  
